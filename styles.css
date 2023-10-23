@@ -1,0 +1,259 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+html {
+    background-image:url(Images/ux-indonesia-qC2n6RQU4Vw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1920px;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.606);
+}
+
+header {
+    width: 1920px;
+    background-color: rgb(150, 8, 8);
+    height: 180px;
+}
+
+.title {
+    position: relative;
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.navigation li {
+    position: relative;
+    display: inline;
+    height: 10px;
+    padding: 20px;
+    padding-top: 70px;
+    padding-left: 70px;
+    width: 600px;
+    height: 200px;
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.navigation a {
+    width: 600px;
+    height: 200px;
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: rgb(209, 208, 208);
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+.colors {
+    background-color: white;
+    border: 1px solid rgba(172, 171, 171, 0);
+    border-radius: 10px;
+    width: 1200px;
+    position: relative;
+    height: 500px;
+    margin: 40px;
+}
+
+.colors h2 {
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.red {
+    display: inline-block;
+    font-family: 'Helvetica', sans-serif;
+    padding-top: 28px;
+    text-align: center;
+    background-color: #ff0000;
+    color: white;
+    width: 300px;
+    position: relative;
+    height: 100px;
+    margin: 40px;
+}
+
+.white {
+    display: inline-block;
+    font-family: 'Helvetica', sans-serif;
+    padding-top: 28px;
+    text-align: center;
+    background-color: #e7e4e4;
+    width: 300px;
+    position: relative;
+    height: 100px;
+    margin: 40px;
+}
+
+.yellow {
+    display: inline-block;
+    font-family: 'Helvetica', sans-serif;
+    padding-top: 28px;
+    text-align: center;
+    background-color: #eded11;
+    width: 300px;
+    position: relative;
+    height: 100px;
+    margin: 40px;
+}
+
+.black {
+    display: inline-block;
+    font-family: 'Helvetica', sans-serif;
+    padding-top: 28px;
+    text-align: center;
+    color: white;
+    background-color: #131313;
+    width: 300px;
+    position: relative;
+    height: 100px;
+    margin: 40px;
+}
+
+.fonts {
+    background-color: white;
+    border: 1px solid rgba(172, 171, 171, 0);
+    border-radius: 10px;
+    width: 1200px;
+    position: relative;
+    height: 550px;
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fonts h2 {
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.roboto {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 400px;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.raleway {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    width: 450px;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.roboto h1 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.raleway h1 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.text-styles {
+    background-color: white;
+    border: 1px solid rgba(172, 171, 171, 0);
+    border-radius: 10px;
+    width: 1200px;
+    position: relative;
+    height: 800px;
+    margin: 40px;
+}
+
+.text-styles #textstyles_section {
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 400px;
+    padding-left: 30px;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.heading ul {
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.subheading {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    width: 400px;
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.subheading ul {
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.paragraph {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    width: 400px;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.paragraph ul {
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer {
+    width: 1920px;
+    background-color: rgb(150, 8, 8);
+    height: 100px;
+}
+
+#footer-text {
+    position: relative;
+    padding-top: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
